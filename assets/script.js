@@ -42,10 +42,10 @@ function updateDot(indexDot) {
 	for (let i = 0; i < dots.length; i++) {
 		if (i===indexDot) {
 			dots[i].classList.add('dot_selected');
+			console.log(actualIndex);
 		} else {
 			dots[i].classList.remove('dot_selected');
 		}
-		
 	}		
   }
 
